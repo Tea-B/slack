@@ -1,0 +1,45 @@
+
+.f-slack {
+    position: relative;
+    width: 100%;
+    height: 140px;
+
+    &__img {
+        width: 60px;
+        left: 20px;
+        bottom: 20px;
+        position: absolute;
+    }
+}
+
+.f-list {
+    width: calc(100% - 40px);
+    margin: 10px 20px 0px 20px;
+
+    border-bottom: 3px rgba(177, 176, 176, 0.5) solid;
+
+    &-ele {
+        width: 30%;
+        padding: 0px 7.5px;
+        padding-bottom: 30px;
+
+        &__title {
+            padding-bottom: 20px;
+        }
+
+        &__ul {
+            list-style: none;
+        }
+
+        &__li {
+            padding-bottom: 20px;
+        }
+    }
+}
+
+.f__lp {
+    width: calc(100% - 40px);
+    padding: 20px;
+    font-size: 13px;
+    color: rgb(151, 150, 150);
+}
